@@ -263,6 +263,7 @@ footer {
   border: none;
   outline: none;
   color: #00f;
+  background: transparent;
   cursor: pointer;
   border-radius: 50%;
   font-size: 40px;
