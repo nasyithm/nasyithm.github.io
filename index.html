@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nasyith Musyafa</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome 6.3.0 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <button onclick="topFunction()" id="topBtn" title="Go to top">
+      <i class="fa-solid fa-circle-up"></i>
+    </button>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="#"><img src="assets/logo.png" alt="Logo NM" /></a>
+        </div>
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#skill">SKILL</a></li>
+          <li><a href="#project">PROJECT</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <img src="assets/profile.png" alt="Profile" />
+        <div class="description">
+          <h2>HELLO!</h2>
+          <div class="name">
+            <h1>I</h1>
+            <h1 id="name"></h1>
+          </div>
+          <p>
+            I'm a Student majoring in Informatics Engineering. I am a Front End
+            Web Developer with experience working on JavaScript or PHP projects,
+            and sometimes do Android and Machine Learning projects.
+          </p>
+          <div>
+            <a href="https://github.com/nasyithm" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="https://linkedin.com/in/nasyithm" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://instagram.com/nasyith.m" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://youtube.com/@nasyithm" target="_blank"
+              ><i class="fa-brands fa-square-youtube"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+      <section id="skill">
+        <h2>My Skills</h2>
+        <div class="card-container">
+          <div class="card1">
+            <img src="assets/skills/javascript.png" alt="JavaScript" />
+            <p>
+              Ever made several projects with JavaScript such as
+              <b>NgeResto</b> and
+              <b>Weather Forecast</b>
+            </p>
+          </div>
+          <div class="card1">
+            <img src="assets/skills/react.png" alt="React" />
+            <p>Ever made a project with React like <b>Job Match</b></p>
+          </div>
+          <div class="card1">
+            <img src="assets/skills/php.png" alt="PHP" />
+            <p>Ever made several projects with PHP</p>
+          </div>
+          <div class="card1">
+            <img src="assets/skills/codeigniter.png" alt="Codeigniter" />
+            <p>Ever made a project with Codeigniter 4 like <b>Sarpraskom</b></p>
+          </div>
+          <div class="card1">
+            <img src="assets/skills/python.png" alt="Python" />
+            <p>
+              Ever made several projects with Python such as
+              <b>Website with Flask</b> and <b>Machine Learning</b>
+            </p>
+          </div>
+          <div class="card1">
+            <img src="assets/skills/kotlin.png" alt="Kotlin" />
+            <p>
+              Ever made several simple Android projects with Kotlin in
+              <b>Android Studio</b>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="project">
+        <h2>My Projects</h2>
+        <div class="card-container">
+          <div class="card">
+            <img src="assets/projects/ngeresto.jpg" alt="NgeResto" />
+            <a href="https://ngeresto.netlify.app" target="_blank"
+              ><h3>NgeResto</h3></a
+            >
+            <p>
+              NgeResto is a website where you can look for restaurant
+              recommendations in various ratings. Built using JavaScript,
+              Webpack, and Workbox so that the website can run offline.
+            </p>
+          </div>
+          <div class="card">
+            <img src="assets/projects/jobmatch.jpg" alt="Job Match" />
+            <a href="https://job-match-prod.netlify.app" target="_blank"
+              ><h3>Job Match</h3></a
+            >
+            <p>
+              Job Match is a website that searches for workers and job vacancies
+              according to the desired criteria. Built using React and
+              Typescript.
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="assets/projects/weather-forecast.jpg"
+              alt="Weather Forecast"
+            />
+            <a
+              href="https://aplikasi-prakiraan-cuaca.netlify.app"
+              target="_blank"
+              ><h3>Weather Forecast</h3></a
+            >
+            <p>
+              Weather Forecast or Aplikasi Prakiraan Cuaca is a website for
+              viewing weather forecasts based on the location you are searching
+              for. Built using JavaScript and get weather info from
+              WeatherAPI.com
+            </p>
+          </div>
+          <div class="card">
+            <img src="assets/projects/sarpraskom.jpg" alt="Sarpraskom" />
+            <a><h3>Sarpraskom</h3></a>
+            <p>
+              Sarpraskom is an information system for borrowing facilities and
+              infrastructure for schools. Built using PHP and Codeigniter 4.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <a href="mailto:nasyithmusyafa@gmail.com"><button>Send Mail</button></a>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Nasyith Musyafa 2023</p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
